@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 from streamlit_lottie import st_lottie
+import requests
 
 # Load model
 model = joblib.load('models/salary_model.pkl')
@@ -24,14 +25,17 @@ data.columns = data.columns.str.strip()
 st.write("✅ Data Shape:", data.shape)
 
 # Lottie animation loader function
-def load_lottieurl(url):
+def load_lottieurl(url: str):
     r = requests.get(url)
     if r.status_code != 200:
         return None
     return r.json()
 
 # Load Lottie animation
-lottie_coding = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_x62chJ.json")
+lottie_url = "https://assets9.lottiefiles.com/packages/lf20_4kx2q32n.json"
+lottie_animation = load_lottieurl(lottie_url)
+
+st_lottie(lottie_animation, height=300, key="welcome")
 
 # Page configuration
 st.set_page_config(page_title="Salary Prediction", page_icon="💼", layout="centered")
