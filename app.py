@@ -48,18 +48,16 @@ if submitted:
 
     # Preprocess Input
     input_df = pd.DataFrame([[experience, education, job_title, location]], columns=["Experience", "Education_Level", "Job_Title", "Location"])
-    input_encoded = pd.get_dummies(input_df).reindex(columns=model.feature_names_in_, fill_value=0)
     
-    # Prediction
-    predicted_salary = model.predict(input_encoded)[0]
-    time.sleep(0.5)
+    # Predict directly using pipeline
+    predicted_salary = model.predict(input_df)[0]
 
     # Display result
     st.success(f"🎉 Predicted Annual Salary: ₹ {int(predicted_salary):,}")
     st.balloons()
 
     st.markdown("---")
-    st.caption("✅ Powered by RandomForest ML Model | Built by Meghana K")
+    st.caption("✅ Powered by RandomForest ML Model")
 
     st.markdown("## 📈 Salary Data Insights")
 
