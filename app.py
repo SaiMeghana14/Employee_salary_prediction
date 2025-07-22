@@ -5,6 +5,7 @@ import time
 import requests
 import matplotlib.pyplot as plt
 import seaborn as sns
+from streamlit_lottie import st_lottie
 
 # Load model
 model = joblib.load('models/salary_model.pkl')
@@ -29,7 +30,6 @@ st.set_page_config(page_title="Salary Prediction", page_icon="💼", layout="cen
 st.title("💼 Employee Salary Prediction")
 
 # Animation at top
-st_lottie = st_lottie
 st_lottie(lottie_coding, speed=1, height=200, key="initial")
 
 st.markdown("---")
