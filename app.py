@@ -1,4 +1,17 @@
+import streamlit as st
+import pandas as pd
+import joblib
+import time
+import requests
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+from streamlit_lottie import st_lottie
+
+# Load model
+model = joblib.load('models/salary_model.pkl')
+
+# Load dataset for EDA charts
 data = pd.read_csv('data/employee_data.csv')
 
 # Debugging Columns
