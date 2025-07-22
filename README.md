@@ -1,6 +1,8 @@
 # 🚀 Employee Salary Prediction App
 
-![Salary Animation]([https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnVjZ3RuOHkwYmxuMXZrZGVpY3RxdThxZ3BhbWszdmR3cnF2d3MwNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l46CcQzPDT5M9m2da/giphy.gif](https://www.google.com/imgres?q=salary%20animated%20images&imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fvector-illustration-salary-cartoon-scene-with-man-who-is-happy-with-his-salary_812561-453.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fvector-illustration-salary-cartoon-scene-with-man-who-is-happy-with-his-salary_88666621.htm&docid=0Cr9Li30V_dWBM&tbnid=JW4wZMUeeherAM&vet=12ahUKEwiQpovqztCOAxWpe2wGHZfFBCcQM3oECA8QAA..i&w=626&h=352&hcb=2&ved=2ahUKEwiQpovqztCOAxWpe2wGHZfFBCcQM3oECA8QAA))
+<p align="center">
+  <img src="logo.png" alt="Employee Salary Prediction Logo" width="300"/>
+</p>
 
 🎓 **IBM SkillsBuild Project** — Predict salaries with Machine Learning, Data Science, and a sleek animated web app.
 
@@ -10,9 +12,6 @@
 
 🌐 **Web App (Streamlit):**
 [▶️ Click to Launch Demo](https://share.streamlit.io/your-username/employee_salary_prediction/main/app.py)
-
-📺 **Demo Video (YouTube):**
-[▶️ Watch Walkthrough](https://youtu.be/your-demo-video-link)
 
 ---
 
@@ -31,13 +30,16 @@ employee_salary_prediction/
 
 ---
 
-## 🧩 Features
+## ✨ Features
+📊 EDA with Matplotlib, Seaborn
 
-✅ **Interactive Salary Predictor** (Real-time results)
-✅ **Beautiful Animated UI with Streamlit**
-✅ **Insightful EDA Visualizations** (Seaborn + Matplotlib)
-✅ **Machine Learning (Random Forest Regression)**
-✅ **Clean Folder Structure for Easy Submission**
+🎨 Animated Streamlit app
+
+🤖 RandomForest ML model with good accuracy
+
+📁 Clean project structure
+
+💬 User-friendly interface
 
 ---
 
@@ -55,7 +57,7 @@ employee_salary_prediction/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repo-link>
+git clone [(https://github.com/SaiMeghana14/Employee_salary_prediction)]
 cd employee_salary_prediction
 ```
 
@@ -93,7 +95,7 @@ Visualize salary trends by **experience**, **education level**, **job title**, a
 
 ---
 
-## 🏆 Skills You Demonstrate
+## 🏆 Skills Demonstrated
 
 * 🐍 Python Programming
 * 🤖 Machine Learning Model Building
