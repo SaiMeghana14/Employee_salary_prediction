@@ -16,7 +16,6 @@ def load_lottieurl(url: str):
     return r.json()
 
 lottie_welcome = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_4kx2q32n.json")
-lottie_chart = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_i3g69fml.json")
 
 # ------------------- PAGE CONFIG ---------------------
 st.set_page_config(page_title="Salary Prediction", page_icon="💼", layout="centered")
@@ -59,7 +58,6 @@ st.markdown("---")
 
 # ------------------- EDA SECTION ---------------------
 st.subheader("🔎 Exploratory Data Analysis")
-st_lottie(lottie_chart, height=200, key="eda")
 
 st.markdown("### 📄 Sample Data")
 st.dataframe(data.head())
